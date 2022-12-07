@@ -5,7 +5,7 @@ pipeline {
     maven "M3"
   }  
   stages {
-    stage('Build') {
+    stage('Build2') {
       steps {
         sh 'mvn clean install'
       }
